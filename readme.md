@@ -7,7 +7,19 @@ composer require symfony/maker-bundle --dev
 composer req twig symfony/asset
 ```
 
-- Créer 3 pages home,formations,contact
+Lancer le server :
+
+```
+symfony server:start
+```
+
+Afficher le projet dans le navigateur :
+
+```
+symfony open:local
+```
+
+- Créer 3 pages(controller) home,formations,contact
 
 ```
 symfony console make:controller
