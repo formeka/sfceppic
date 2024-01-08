@@ -6,7 +6,6 @@
 <section>
     <h1>Formations</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa inventore maiores modi aperiam a fuga incidunt nulla dicta reiciendis, ipsum at sunt sapiente cumque natus! Vero unde exercitationem illum iure!</p>
-    {# <p>Type de formation: <strong>{{ domaine }}</strong></p> #}
-    <p>Page : {{ page }}</p>
+    <p><a href="{{ path('app_formations_show' , {page: 10}) }}">Une formation</a></p>
 </section>
 {% endblock %}
